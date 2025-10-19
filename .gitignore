@@ -1,0 +1,8 @@
+*.csv
+*.lst
+*.txt
+*.xlsx
+
+.vscode/
+venv/
+__pycache__/
