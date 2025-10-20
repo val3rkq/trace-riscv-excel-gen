@@ -20,7 +20,7 @@
    5. Экспортировать: `File` -> `Export` -> `Tabular list...` и сохранить в виде файла формата `.lst` (обязательно этот формат!)
       ![export](img/export.png)
 
-### Результаты в формате CSV
+### Результаты в формате CSV и Excel
 
 - По умолчанию запуск `generator.py inputFile.lst [outputFile.csv]`
 
