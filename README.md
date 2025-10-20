@@ -27,7 +27,7 @@ python3 generator.py inputFile.lst [outputFile.csv]
 
 - Для генерации сразу в Эксель
 ```
-python3 generator.py inputFile.lst [outputFile.xlsx] --export
+python3 generator.py inputFile.lst [outputFile.xlsx] --excel
 ```
 Может понадобиться установить `pip install xlsxwriter` 
 - если нет возможности установить зависимость, в файле `export.py` уберите импорт и у `def export_to_xlsx(..)` замените тело на `pass` -> сможете получить `.csv`
