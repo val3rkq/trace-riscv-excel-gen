@@ -18,11 +18,12 @@
    4. Экспортировать: `File` -> `Export` -> `Tabular list...` и сохранить в виде файла формата `.lst` (обязательно этот формат!)
       ![export](img/export.png)
 
-### Результаты в формате CSV
+### Результаты в формате CSV и Excel
 
-- По умолчанию запуск `generator.py inputFile.lst [outputFile.csv]`
+- По умолчанию запуск `python3 generator.py inputFile.lst [outputFile.csv]`
 
-- Для генерации сразу в Эксель `generator.py inputFile.lst [outputFile.xlsx] --export`
+- Для генерации сразу в Эксель `generator.py inputFile.lst [outputFile.xlsx] --export` 
+(может понадобиться установить `pip install xlsxwriter` - если нет возможности установить, в файле `export.py` уберите импорт и у функции-экспорта в Эксель замените тело на `pass`)
 
 - Есть еще флаг `--verbose` для вывода подробной информации.
 
