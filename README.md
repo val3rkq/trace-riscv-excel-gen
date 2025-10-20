@@ -30,7 +30,7 @@ python3 generator.py inputFile.lst [outputFile.csv]
 python3 generator.py inputFile.lst [outputFile.xlsx] --export
 ```
 Может понадобиться установить `pip install xlsxwriter` 
-- если нет возможности установить зависимость, в файле `export.py` уберите импорт и у `def export_to_xlsx(..` замените тело на `pass`
+- если нет возможности установить зависимость, в файле `export.py` уберите импорт и у `def export_to_xlsx(..)` замените тело на `pass` -> сможете получить `.csv`
 - Если не указать `outputFile`, результат будет сохранен в файле с названием входного файла.
 - Есть еще флаг `--verbose` для вывода подробной информации.
 
