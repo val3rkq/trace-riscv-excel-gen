@@ -2,6 +2,7 @@
 *.lst
 *.txt
 *.xlsx
+*.s
 
 .vscode/
 venv/
