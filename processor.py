@@ -193,7 +193,7 @@ class CommandProcessing:
             self.history[tick] = "ID"
             self.instruction = instruction
             
-        self.vprint(LogLevel.DEBUG, f"Dispatching complete: pc={hex(self.address)}, id={self.id}, instruction={hex(instruction)}")
+        self.vprint(LogLevel.DEBUG, f"Dispatching complete: pc={hex(self.address)}, id={self.id}")
 
     def decode(self, tick, wait):
         if self.stage != "decoding":
